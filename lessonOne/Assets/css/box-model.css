@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#div{
+    background-color: #000034;
+    color: white;
+    width: 100%;
+    height: 100px;
+}
+
+.div{
+    background-color: #000034;
+    color: white;
+    width: 100%;
+    height: 100px;
+
+    /* 
+    ======padding properties: top, right, bottom, left, universal
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    
+    ======= when padding has two values, the initial value represents top and bottom
+    while the latter value is for left and right
+    padding: 5px 10px;
+
+    ======When padding has 4 values, the values represent top, right, bottom and left respectively.
+    padding: 10px 20px 30px 40px;
+    */
+
+    /* 
+    ======Margin properties: top, right, bottom, left, universal
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
+    ======= when margin has two values, the initial value represents top and bottom
+    while the latter value is for left and right
+    margin: 5px 10px;
+
+    ======When margin has 4 values, the values represent top, right, bottom and left respectively.
+    margin: 10px 20px 30px 40px;
+    */
+
+    
+    /*
+    =======Border properties: Color, Style and Width
+    border-color: red;
+    border-style:solid;
+    border-width: 10px;
+    
+    =======Border radius: top-right, bottom-right, top-left, bottom-left, universal
+    border-top-right-radius: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 20px;
+    border-radius: 100px;
+    
+    =======Border sides: top, right, bottom, left
+    border-top:2px dotted green;
+    border-right: 10px dashed pink;
+    border-bottom: 5px ridge yellow;
+    border-left: 20px double orange; 
+
+    =======Border Shorthand
+    border: 2px solid red;
+    */
+}

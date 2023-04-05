@@ -1,0 +1,26 @@
+#background{
+    width: 100%;
+    height: 300px;
+    color: white;
+
+    /* Using background properties: color, image, repeat, attachment, position, cover */
+
+
+    /* background-color: blue;
+    background-image: url(../images/sidekix-media-WgkA3CSFrjc-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size:cover;
+    */
+
+
+    /* Using background property shorthand */
+    /* color, image, repeat, attachment, position 
+        If one or more elements are not in use, we follow the order.
+    */
+    background: blue url(../images/sidekix-media-WgkA3CSFrjc-unsplash.jpg) no-repeat fixed center;
+
+    /* Background size cannot be used in the background shorthand property */
+    background-size: cover;
+}
