@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Using background color on text */
+#first{
+    background-color: grey;
+}
+
+/* Using color on text */
+#second{
+    color: chartreuse;
+}
+
+
+/* Using alignment on text */
+#third{
+    text-align: center;
+}
+
+/* Using text direction on text */
+#fourth{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+/* Using vertical alignment on a text */
+#fifth span{
+    vertical-align:middle;
+    font-size: 8px;
+}
+
+/* Using text decoration on a text */
+#sixth{
+    color: chocolate;
+    text-decoration: none;
+}
+/* This text decoration is very efficient when styling a tags */
+
+
+/* Using text transform on text */
+#seventh{
+    /* text-transform: capitalize; */
+    /* text-transform: uppercase; */
+    text-transform: lowercase;
+}
+
+/* ==================SPACING IN CSS======================== */
+.lorem{
+    
+    /* letter-spacing: 20px; */
+    /* word-spacing: 50px; */
+    /* line-height: 5px; */
+    white-space:nowrap;
+    /* text-indent: 50px; */
+}
+
+/* ====================Shadow in CSS====================== */
+h1{
+    text-align: center;
+    font-size: 10rem;
+    /* text shadow with width and height 
+    text-shadow: 5px 5px ;
+    */
+    /* text shadow with color, width and height 
+    text-shadow:5px 5px blue;
+    */
+
+    /* text shadow with blur */
+    text-shadow: 5px 5px;
+}

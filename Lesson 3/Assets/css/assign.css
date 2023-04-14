@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#sad{
+    width: 400px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    white-space: wrap
+    line-height: 5px;
+}
+
+#sad p a{
+    color: blue;
+    text-decoration: none;
+}
+
+#death{
+    color: darkmagenta;
+    width: 400px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    white-space: wrap
+    line-height: 5px;
+    background-image: url(../images/fred\ 2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size:cover;
+}
+
+#death p a{
+    color: blue;
+    text-decoration: none;
+}
+p{
+    width: 400px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    white-space: wrap
+    line-height: 5px;
+}
+
+p a{
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+}

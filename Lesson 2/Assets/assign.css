@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: gray;
+    color: chartreuse;
+    width: 200px;
+}
+
+#div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+#div2{
+    width: 260px;
+    height: 100px;
+    background-color: green;
+}
+
+#div3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: purple;
+}
+
+#div4{
+    width: 130px;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 60px solid rgb(17, 65, 95);
+}
+
+#div5{
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 80px solid salmon;
+}

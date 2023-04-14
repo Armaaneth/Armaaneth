@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* ==============Text Property============= */
+p{
+    color: white;
+    background-color: green;
+    text-align: right;
+    text-align-last: left;
+    height: 50vh;
+    /* direction: rtl;
+    vertical-align:bottom;
+    unicode-bidi: bidi-override; */
+}
