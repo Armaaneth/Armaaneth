@@ -2,14 +2,20 @@
     margin: 0;
     padding: 0;
 }
+.fred{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
 #sad{
-    width: 400px;
     text-align: center;
     text-decoration: none;
     font-size: 20px;
-    white-space: wrap
-    line-height: 5px;
+    width: 50%;
+    white-space: wrap;
 }
 
 #sad p a{
@@ -18,18 +24,24 @@
 }
 
 #death{
-    color: darkmagenta;
-    width: 400px;
+    width: 250px;
+    color: white;
     text-align: center;
-    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     font-size: 20px;
-    white-space: wrap
-    line-height: 5px;
-    background-image: url(../images/fred\ 2.jpeg);
-    background-repeat: no-repeat;
+    white-space: wrap;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(../images/fred\ 2.jpeg);
     background-position: center; 
     background-size:cover;
 }
+
+#death span{
+    width: 200px;
+}
+
 
 #death p a{
     color: blue;
@@ -37,15 +49,11 @@
 }
 p{
     width: 400px;
-    text-align: center;
-    text-decoration: none;
     font-size: 20px;
-    white-space: wrap
-    line-height: 5px;
+    white-space: wrap;
 }
 
 p a{
     color: blue;
-    text-decoration: none;
     font-size: 20px;
 }
