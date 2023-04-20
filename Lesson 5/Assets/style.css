@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* .container{
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.list{
+    list-style-type:square;
+    color: inherit;
+} */
+
+#link1{
+    margin: 20px;
+    padding:20px;
+    color: black;
+    font-size:20px;
+}
+
+#link1:hover{
+    color: green;
+}
+
+#link2{
+    margin: 20px;
+    padding:20px;
+    color: green;
+    font-size:20px;
+    text-decoration: none;
+}
+
+#link2:hover{
+    text-decoration: underline;
+}
+
+#link-btn{
+    margin: 20px;
+    padding:20px;
+    font-size:20px;
+    border: 2px solid green;
+    color: black;
+    background: white;
+}
+
+#link-btn:hover{
+    color: white;
+    background-color: green;
+}
+
+#link-btn2{
+    margin: 20px;
+    padding:20px;
+    font-size:20px;
+    border: none;
+    color: white;
+    background: rgba(255, 0, 0, 0.6);
+}
+
+#link-btn2:hover{
+    background-color: rgba(255, 0, 0);
+}
+
+/* The states of a link */
+/* Unvisited */
+#jahtell{
+    color: black;
+}
+/* Visited */
+#jahtell:visited{
+    color: blue;
+}
+/* Active */
+#jahtell:active{
+    color: green;
+}
+/* Hover */
+#jahtell:hover{
+    color: orange;
+}
+
+
+/* The header */
+header{
+    width: inherit;
+    height: 100vh;
+    background: url(../Assets/image/anita-austvika-4GspP122v-g-unsplash.jpg);
+    background-size: contain;
+}
+
+.navbar{
+    width: inherit;
+    height: 10vh;
+    background-color: rgba(0,0,0,0.5);
+    padding-top: 20px;
+}
+
+.list{
+    margin-left: 20rem;
+}
+
+.list span{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px 30px;
+}
+
+.title{
+    font-size: xx-large;
+    margin-top: 50px;
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
